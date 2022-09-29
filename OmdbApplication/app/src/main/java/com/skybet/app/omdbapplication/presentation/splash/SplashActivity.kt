@@ -28,13 +28,12 @@ class SplashActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Greeting("Android1")
                 }
             }
         }
 
-        /* setContentView(R.layout.activity_main)
-
+        /*
          val textView = findViewById<TextView>(R.id.textView1)
 
          lifecycleScope.launch {

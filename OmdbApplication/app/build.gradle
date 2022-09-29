@@ -68,6 +68,7 @@ dependencies {
     implementation Libs.AndroidX.Compose.activity
     implementation Libs.AndroidX.Compose.material
     implementation Libs.AndroidX.Compose.preview
+    implementation Libs.AndroidX.Compose.viewModel
 
 
 
@@ -90,26 +91,6 @@ dependencies {
     implementation Libs.Retrofit.gsonConverter
     implementation Libs.Retrofit.moshiConverter
 
-
-    /*implementation Libs.Kotlin.stdlib
-    implementation Libs.Kotlin.reflect
-    implementation Libs.Kotlin.extensions
-
-    implementation Libs.Google.gson
-
-    implementation Libs.AndroidX.appCompat
-    implementation Libs.AndroidX.material
-    implementation Libs.AndroidX.constraintLayout
-
-    // Navigation
-    implementation Libs.AndroidX.Navigation.ui
-    implementation Libs.AndroidX.Navigation.fragment
-
-    // Compose
-    implementation Libs.AndroidX.Compose.viewModel
-
-
-
     // Glide
     implementation Libs.Glide.library
     implementation Libs.Glide.Compose.library
@@ -120,8 +101,18 @@ dependencies {
     implementation Libs.Moshi.moshiAdapters
     kapt Libs.Moshi.moshiKotlinCodegen
 
-    // di
-    implementation Libs.DI.Koin.koin
+    implementation Libs.Google.gson
 
-*/
+    implementation Libs.AndroidX.appCompat
+    implementation Libs.AndroidX.material
+    implementation Libs.AndroidX.constraintLayout
+
+    /*implementation Libs.Kotlin.stdlib
+    implementation Libs.Kotlin.reflect
+    implementation Libs.Kotlin.extensions
+
+    // Navigation
+    implementation Libs.AndroidX.Navigation.ui
+    implementation Libs.AndroidX.Navigation.fragment
+    */
 }
