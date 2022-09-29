@@ -6,7 +6,7 @@ package com.skybet.app.buildSrc
  */
 object Libs {
 
-    const val androidGradlePlugin = "com.android.tools.build:gradle:7.0.1"
+    const val androidGradlePlugin = "com.android.tools.build:gradle:7.3.0"
 
     object Google {
         const val gson = "com.google.code.gson:gson:2.8.7"
